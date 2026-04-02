@@ -1,9 +1,7 @@
 # Prince of Persia: The Sands of Time RTX Remix compatibility mod
 This modification converts SoT's shader based rendering pipeline into fixed-function rendering, which enables compatibility with RTX Remix.
 
-`d3d9.dll` hijacks the game's D3D9 device to make Prince of Persia: The Sands of Time compatible with RTX Remix's path tracer. The game uses VS 1.1 vertex shaders for all geometry — the proxy intercepts every draw call and converts to the D3D9 fixed-function pipeline that Remix understands.
-
-# What to expect
+# Current status
 > [!CAUTION]
 > This mod is in its early stages of development. Expect flickering, missing, or broken textures/effects. It only enables RTX Remix. Assets are not replaced.
 
@@ -23,3 +21,6 @@ This modification converts SoT's shader based rendering pipeline into fixed-func
 4. Rename remix's `d3d9.dll` to `d3d9_remix.dll`.
 5. Place [`d3d9.dll`](https://github.com/kaminoer/pop-sot-rtx/releases) in the game folder (for example `C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Prince of Persia Sands of Time`).
 6. If you want, you can use my `rtx.conf` file (place it in the game folder next to `d3d9.dll`). It has some initial work done with tagged light, UI, sky, etc. textures. Note that this is NOT complete.
+
+# Development 
+Feel free to open issues if you run into problems. Compatibility feedback is also appreciated. The goal is to convert all remaining unsupported shaders into fixed function (where feasible), so if you find effects or textures that are not working as intended, be sure to let me know (with screenshot if possible). 
