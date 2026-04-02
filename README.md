@@ -1,6 +1,8 @@
 # Prince of Persia: The Sands of Time RTX Remix compatibility mod
 This modification converts SoT's shader based rendering pipeline into fixed-function rendering, which enables compatibility with RTX Remix.
 
+[![SoT RTX Remix](http://img.youtube.com/vi/aBABWcmLp1M/0.jpg)](http://www.youtube.com/watch?v=aBABWcmLp1M "SoT hall of learning RTX")
+
 # Current status
 > [!CAUTION]
 > This mod is in its early stages of development. Expect flickering, missing, or broken textures/effects. It only enables RTX Remix. Assets are not replaced.
