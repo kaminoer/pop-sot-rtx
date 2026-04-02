@@ -20,5 +20,5 @@ This modification converts SoT's shader based rendering pipeline into fixed-func
 1. Install the game.
 2. Install the [Sands of Time fix compilation](https://www.moddb.com/games/prince-of-persia-the-sands-of-time/downloads/sands-of-time-fix-compilation).
 3. Install [RTX Remix](https://github.com/NVIDIAGameWorks/rtx-remix/releases).
-4. Place `[d3d9.dll](https://github.com/kaminoer/pop-sot-rtx/releases/tag/v0.1)` in the game folder (for example `C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Prince of Persia Sands of Time`).
+4. Place [`d3d9.dll`](https://github.com/kaminoer/pop-sot-rtx/releases/tag/v0.1) in the game folder (for example `C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Prince of Persia Sands of Time`).
 5. If you want, you can use my `rtx.conf` file (place it in the game folder next to `d3d9.dll`). It has some initial work done with tagged light, UI, sky, etc. textures. Note that this is NOT complete.
