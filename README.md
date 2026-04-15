@@ -6,7 +6,7 @@ This modification converts SoT's shader based rendering pipeline into fixed-func
 # Current status
 > [!CAUTION]
 > This mod is a work in progress. Expect flickering, missing, or broken textures/effects. It only enables RTX Remix - no new game assets included.
-> Supported game version: Prince of Persia: The Sands of Time, English version, Ubisoft Connect
+> - Supported game version: Prince of Persia: The Sands of Time, English version, Ubisoft Connect
 
 ## Known issues and limitations
 - Water gets a solid blue placeholder.
